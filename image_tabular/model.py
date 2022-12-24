@@ -7,7 +7,7 @@ from fastai.vision import *
 from fastai.tabular import *
 
 # Cell
-class CNNTabularModel(Module):
+class CNNTabularModel():
     def __init__(self, cnn_model, tabular_model, layers, ps, out_sz):
         """
         Hybrid CNN and tabular model.
