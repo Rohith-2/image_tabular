@@ -5,6 +5,8 @@ __all__ = ['get_valid_index', 'normalize_funcs_image_tab']
 # Cell
 from fastai.vision import *
 from fastai.tabular import *
+from typing import Tuple
+
 
 # Cell
 def get_valid_index(df, valid_pct:float=0.2, seed:int=0):
