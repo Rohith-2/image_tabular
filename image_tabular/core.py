@@ -7,6 +7,10 @@ from fastai.vision import *
 from fastai.tabular import *
 from typing import *
 from torch import *
+from typing import Tuple,Callable
+from torch import Tensor,FloatTensor
+from functools import partial
+
 
 # Cell
 def get_valid_index(df, valid_pct:float=0.2, seed:int=0):
