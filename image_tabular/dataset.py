@@ -5,6 +5,8 @@ __all__ = ['ImageTabDataset', 'get_imagetabdatasets']
 # Cell
 from fastai.vision import *
 from fastai.tabular import *
+from torch.utils.data import Dataset
+
 
 # Cell
 class ImageTabDataset(Dataset):
