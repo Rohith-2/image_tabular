@@ -6,7 +6,7 @@ __all__ = ['get_valid_index', 'normalize_funcs_image_tab']
 from fastai.vision import *
 from fastai.tabular import *
 from typing import Tuple
-
+from torch import Tensor
 
 # Cell
 def get_valid_index(df, valid_pct:float=0.2, seed:int=0):
